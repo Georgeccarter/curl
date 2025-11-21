@@ -9,4 +9,12 @@ sudo apt install -y curl
 # Verify installation
 curl --version
 
-# Attached files show different curl command usage.
+# These are just a few of the many things that can be done with curl.  Attached files show different curl command usage.
+# Basic GET request
+curl https://example.com
+# GET with response headers
+curl -I https://example.com
+# GET request with verbose output
+curl -v https://example.com
+# Download a file
+curl -O https://example.com/file.zip
