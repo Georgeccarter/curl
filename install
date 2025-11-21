@@ -8,3 +8,5 @@ sudo apt update
 sudo apt install -y curl
 # Verify installation
 curl --version
+
+# Attached files show different curl command usage.
