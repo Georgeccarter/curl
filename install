@@ -1,4 +1,7 @@
-# Curl may not be installed by default in your particular Linux distro.  If using a Debian based system such as Ubuntu or Kali Linux, it can be installed using:
+# Curl may not be installed by default in your particular Linux distro.  
+# curl typically will be installed in the folder /usr/bin/curl.  If you are unsure if you have curl installed, you can verify it with the command:
+which curl
+# If using a Debian based system such as Ubuntu or Kali Linux, it can be installed using:
 # Update package lists
 sudo apt update
 # Install curl
