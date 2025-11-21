@@ -1,0 +1,7 @@
+# Curl may not be installed by default in your particular Linux distro.  If using a Debian based system such as Ubuntu or Kali Linux, it can be installed using:
+# Update package lists
+sudo apt update
+# Install curl
+sudo apt install -y curl
+# Verify installation
+curl --version
